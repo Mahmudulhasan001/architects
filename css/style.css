@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-nav-part {
+    background-color: #fae2081a;
+
+}
+
+.container {
+    width: 1180px;
+    margin-inline: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.menu-bar h2 {
+    font-size: 45px;
+}
+
+.menu-bar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icone ul li {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+ul a {
+    text-decoration: none;
+}
+
+/* --------------------------header section -----------------------------------*/
+.header {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.header-p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.primary-button {
+    
+    background-color: chocolate;
+    padding: 8px 30px;
+    border-radius: 30px;
+    border: none;
+
+}
+
+img {
+    margin-top: 50px;
+    width: 100%;
+}
+/* ---------------------------------------gallery section ---------------------------------*/
+.gallery{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    padding: 50px;
+    
+}
+.gallery-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:20px ;
+    
+}
+.gallery-header{
+    padding: 73px;
+}
+.gallery-title h2{
+    font-size: 45px;
+
+}
+.color-cg-1{
+    color: #727272;
+}
+.color-cg-2{
+    
+    color: #FF900E;
+}
+.gallery-p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:16px;
+    color: #727272;
+}
